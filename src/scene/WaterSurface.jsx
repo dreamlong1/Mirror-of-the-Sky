@@ -7,7 +7,7 @@ import { Water } from 'three/examples/jsm/objects/Water.js'
 
 function WaterSurface() {
   const waterRef = useRef(null)
-  const waterNormals = useTexture('/textures/waternormals.jpeg')
+  const waterNormals = useTexture(`${import.meta.env.BASE_URL}textures/waternormals.jpeg`)
 
   useEffect(() => {
     waterNormals.wrapS = THREE.RepeatWrapping
