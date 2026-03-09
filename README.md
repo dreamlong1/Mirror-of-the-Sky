@@ -1,6 +1,6 @@
 # 🪞 Mirror of the Sky — 天空之镜
 
-> 一个使用 React Three Fiber 构建的沉浸式 3D 海天一线场景，灵感来源于玻利维亚乌尤尼盐湖的"天空之镜"奇观。
+> 一个使用 React Three Fiber 构建的沉浸式 3D 海天一线场景。
 
 ![Mirror of the Sky](preview.png)
 

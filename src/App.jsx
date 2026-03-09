@@ -35,24 +35,10 @@ function App() {
 
       <div className="hud-layer">
         <div className="hero-card">
-          <p className="hero-kicker">React Three Fiber Study</p>
-          <h1>Sea and Sky</h1>
-          <p className="hero-copy">
-            A bright HDR sky, a calm reflective water plane, and a scene scaffold ready
-            for a future boat and sign.
-          </p>
+          <h1>Mirror of the Sky</h1>
         </div>
 
-        <div className="status-card">
-          <span>Ready for expansion</span>
-          <strong>Boat slot</strong>
-          <strong>Sign slot</strong>
-        </div>
 
-        <div className="footer-note">
-          <span>Move your mouse gently.</span>
-          <em>The camera drifts to keep the horizon alive.</em>
-        </div>
       </div>
 
       <Loader

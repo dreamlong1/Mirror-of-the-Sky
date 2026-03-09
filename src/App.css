@@ -22,136 +22,35 @@
   position: absolute;
   inset: 0;
   pointer-events: none;
-  padding: 1.5rem;
-  display: grid;
-  grid-template-columns: minmax(0, 24rem) auto;
-  grid-template-rows: auto 1fr auto;
-  gap: 1rem;
+  padding: 2rem;
 }
 
-.hero-card,
-.status-card,
-.footer-note {
-  align-self: start;
+.hero-card {
+  width: fit-content;
   border: 1px solid rgba(255, 255, 255, 0.24);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.06));
   backdrop-filter: blur(16px);
   box-shadow: 0 18px 50px rgba(18, 53, 96, 0.18);
-}
-
-.hero-card {
-  max-width: 24rem;
-  border-radius: 1.5rem;
-  padding: 1.25rem 1.25rem 1.35rem;
-}
-
-.hero-kicker {
-  margin: 0 0 0.4rem;
-  font-size: 0.72rem;
-  letter-spacing: 0.24em;
-  text-transform: uppercase;
-  color: rgba(240, 248, 255, 0.88);
+  border-radius: 1.2rem;
+  padding: 0.8rem 1.6rem;
 }
 
 .hero-card h1 {
   margin: 0;
   font-family: 'Caveat', cursive;
-  font-size: clamp(2.5rem, 5vw, 4.4rem);
-  line-height: 0.95;
+  font-size: clamp(2rem, 3.5vw, 3.2rem);
+  white-space: nowrap;
+  line-height: 1;
   color: #fdfefe;
   text-shadow: 0 8px 30px rgba(33, 91, 171, 0.24);
 }
 
-.hero-copy {
-  margin: 0.95rem 0 0;
-  max-width: 20rem;
-  font-size: 0.98rem;
-  line-height: 1.65;
-  color: rgba(243, 250, 255, 0.92);
-}
-
-.status-card {
-  justify-self: end;
-  border-radius: 999px;
-  padding: 0.9rem 1.05rem;
-  display: inline-flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 0.8rem;
-  color: #eef8ff;
-}
-
-.status-card span {
-  font-size: 0.72rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: rgba(236, 247, 255, 0.8);
-}
-
-.status-card strong {
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 999px;
-  padding: 0.38rem 0.82rem;
-  font-size: 0.82rem;
-  font-weight: 600;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.footer-note {
-  grid-column: 1;
-  align-self: end;
-  justify-self: start;
-  border-radius: 1.25rem;
-  padding: 0.95rem 1rem;
-  display: grid;
-  gap: 0.15rem;
-  color: #f1f9ff;
-}
-
-.footer-note span {
-  font-size: 0.74rem;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: rgba(241, 249, 255, 0.74);
-}
-
-.footer-note em {
-  font-family: 'Caveat', cursive;
-  font-size: 1.55rem;
-  font-style: normal;
-}
-
-@media (max-width: 900px) {
-  .hud-layer {
-    grid-template-columns: 1fr;
-  }
-
-  .status-card {
-    justify-self: start;
-    flex-wrap: wrap;
-    border-radius: 1.25rem;
-  }
-
-  .footer-note {
-    width: min(100%, 22rem);
-  }
-}
-
 @media (max-width: 640px) {
   .hud-layer {
-    padding: 1rem;
+    padding: 1.2rem;
   }
 
-  .hero-card {
-    max-width: 100%;
-    padding: 1rem;
-  }
-
-  .hero-copy {
-    font-size: 0.92rem;
-  }
-
-  .status-card {
-    gap: 0.55rem;
+  .hero-card h1 {
+    font-size: 2.2rem;
   }
 }
