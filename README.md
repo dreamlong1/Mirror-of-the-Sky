@@ -1,6 +1,8 @@
 # 🪞 Mirror of the Sky — 天空之镜
 
 > 一个使用 React Three Fiber 构建的沉浸式 3D 海天一线场景。
+>
+> 🌟 **在线体验地址**：[https://dreamlong1.github.io/Mirror-of-the-Sky/](https://dreamlong1.github.io/Mirror-of-the-Sky/)
 
 ![Mirror of the Sky](preview.png)
 
